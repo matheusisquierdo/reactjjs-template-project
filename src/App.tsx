@@ -10,9 +10,9 @@ export default function App() {
 
   return (
     <>
-      <h1>Hello World: {counter}</h1>
+      <h1>Counter to test hot reload: {counter}</h1>
       <button type="button" onClick={incrementar}>
-        INcremetar
+        Incrementar Contador
       </button>
     </>
   );
